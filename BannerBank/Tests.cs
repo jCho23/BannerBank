@@ -47,8 +47,16 @@ namespace BannerBank
 		public void PasswordNoLogin()
 		{
 			app.Tap("password");
+			app.EnterText("Mark J Grescovich");
+			app.DismissKeyboard();
+			app.Tap("btn_sign_in");
 		}
 
+		[Test]
+		public void LocationsTest()
+		{
+			
+		}
 
 
 
