@@ -39,6 +39,7 @@ namespace BannerBank
 			app.EnterText("Banner Bank");
 
 			app.DismissKeyboard();
+			app.Screenshot("Dismissed Keyboard");
 
 			app.Tap("btn_sign_in");
 		}
@@ -49,6 +50,8 @@ namespace BannerBank
 			app.Tap("password");
 			app.EnterText("Mark J Grescovich");
 			app.DismissKeyboard();
+			app.Screenshot("Dismissed Keyboard");
+
 			app.Tap("btn_sign_in");
 		}
 
