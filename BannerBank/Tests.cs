@@ -63,5 +63,12 @@ namespace BannerBank
 			app.Screenshot("Then we Tapped the 'Log In' Button");
 		}
 
+		[Test]
+		public void PrivacyPolicyTest()
+		{
+			app.Tap("Privacy Policy");
+
+		}
+
 	}
 }
