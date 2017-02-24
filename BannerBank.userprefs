@@ -1,3 +1,15 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{8841FFCD-B0B8-488D-B226-32A7047DFEA9}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BannerBank/Tests.cs">
+    <Files>
+      <File FileName="BannerBank/AppInitializer.cs" Line="30" Column="6" />
+      <File FileName="BannerBank/Tests.cs" Line="31" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BannerBank PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
