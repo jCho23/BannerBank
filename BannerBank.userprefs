@@ -1,9 +1,26 @@
 ﻿<Properties StartupConfiguration="{8841FFCD-B0B8-488D-B226-32A7047DFEA9}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BannerBank/Tests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BannerBank/AppInitializer.cs">
     <Files>
-      <File FileName="BannerBank/AppInitializer.cs" Line="30" Column="6" />
-      <File FileName="BannerBank/Tests.cs" Line="31" Column="18" />
+      <File FileName="BannerBank/AppInitializer.cs" Line="33" Column="4" />
+      <File FileName="BannerBank/Tests.cs" Line="73" Column="23" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="BannerBank" expanded="True">
+            <Node name="BannerBank" expanded="True">
+              <Node name="BannerBank" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="Tests(Android)" expanded="True">
+                    <Node name="Repl" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
