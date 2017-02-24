@@ -4,6 +4,7 @@ using System.Linq;
 using NUnit.Framework;
 using Xamarin.UITest;
 using Xamarin.UITest.Queries;
+using System.Threading;
 
 namespace BannerBank
 {
@@ -67,7 +68,11 @@ namespace BannerBank
 		public void PrivacyPolicyTest()
 		{
 			app.Tap("Privacy Policy");
+			app.Screenshot("We Tapped on the 'Privacy Policy' Button");
 
+			Thread.Sleep(4000);
+			app.ScrollDown();
+			app.Screenshot("We Scrolled down for more information");
 		}
 
 	}
