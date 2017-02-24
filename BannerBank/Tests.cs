@@ -31,6 +31,26 @@ namespace BannerBank
 			app.Repl();
 		}
 
+		[Test]
+		public void LoginNoPassword()
+		{
+			app.Tap("username");
+
+			app.EnterText("Banner Bank");
+
+			app.DismissKeyboard();
+
+			app.Tap("btn_sign_in");
+		}
+
+		[Test]
+		public void PasswordNoLogin()
+		{
+			app.Tap("password");
+		}
+
+
+
 
 	}
 }
