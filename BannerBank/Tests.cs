@@ -35,8 +35,10 @@ namespace BannerBank
 		public void LoginNoPassword()
 		{
 			app.Tap("username");
+			app.Screenshot("Let's start by Tapping on the 'username' Edit Text Field");
 
 			app.EnterText("Banner Bank");
+
 
 			app.DismissKeyboard();
 			app.Screenshot("Dismissed Keyboard");
@@ -54,15 +56,6 @@ namespace BannerBank
 
 			app.Tap("btn_sign_in");
 		}
-
-		[Test]
-		public void LocationsTest()
-		{
-			app.Tap("Locations");
-
-		}
-
-
 
 	}
 }
