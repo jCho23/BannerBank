@@ -38,23 +38,29 @@ namespace BannerBank
 			app.Screenshot("Let's start by Tapping on the 'username' Edit Text Field");
 
 			app.EnterText("Banner Bank");
-
+			app.Screenshot("We entered our username, 'Banner Bank'");
 
 			app.DismissKeyboard();
 			app.Screenshot("Dismissed Keyboard");
 
 			app.Tap("btn_sign_in");
+			app.Screenshot("Then we Tapped the 'Log In' Button");
 		}
 
 		[Test]
 		public void PasswordNoLogin()
 		{
 			app.Tap("password");
+			app.Screenshot("Let's start by Tapping on the 'password' Edit Text Field");
+
 			app.EnterText("Mark J Grescovich");
+			app.Screenshot("We entered our password, 'Mark J Grescovich'");
+
 			app.DismissKeyboard();
 			app.Screenshot("Dismissed Keyboard");
 
 			app.Tap("btn_sign_in");
+			app.Screenshot("Then we Tapped the 'Log In' Button");
 		}
 
 	}
