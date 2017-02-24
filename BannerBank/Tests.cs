@@ -55,7 +55,8 @@ namespace BannerBank
 		[Test]
 		public void LocationsTest()
 		{
-			
+			app.Tap("Locations");
+
 		}
 
 
